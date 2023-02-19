@@ -1,0 +1,129 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.digital-timer {
+  font-size: 36px;
+}
+
+.timer-app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-position: center;
+}
+
+.timer-elapsed-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.timer-card {
+  background-color: #ffffff;
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-value {
+  font-size: 20px;
+  color: #00d9f5;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.timer-status {
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.timer-start-reset-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.start-reset-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pause-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  height: 30px;
+  width: 60px;
+  border: none;
+  background-color: transparent;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-image {
+  height: 30px;
+  width: 30px;
+}
+
+.symbol {
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.timer-limit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-limit {
+  background-image: linear-gradient(to right, #defafe, #00d9f5);
+  height: 36px;
+  width: 50px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
